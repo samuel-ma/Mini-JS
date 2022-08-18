@@ -8,7 +8,10 @@
 function ageInYears(){
   const year = prompt("Which year were you born?");
   const days = ((2022 - year) * 365);
-  return days;
+  let h1 = document.createElement("h1")
+  let answer = document.createTextNode("Your are " + days + " days old")
+  h1.setAttribute("id", "ageInYears")
+  h1.appendChild(answer)
+  document.getElementById('result').appendChild(h1)
 }
-console.log("Your age in days is " + ageInYears());
-// ageInYears();
+

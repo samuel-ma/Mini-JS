@@ -59,3 +59,17 @@
   border-color: #272727;
   border-style: solid;
 }
+
+.inner-one{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  height:  fit-content;
+  padding: 10px;
+  border-left: 0.5px #272727 solid ;
+  border-right:  0.5px #272727 solid;
+  border-bottom:  0.5px #272727 solid;
+}
+
